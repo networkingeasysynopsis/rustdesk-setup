@@ -27,16 +27,16 @@ rustdesk-setup/
 Open **PowerShell as Administrator** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/<your-username>/rustdesk-setup/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install.ps1 | iex
 ```
 
 ### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-username>/rustdesk-setup/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install.sh | sudo bash
 ```
 
-Replace `<your-username>` with your GitHub username.
+These commands use the GitHub account `networkingeasysynopsis`. If you move the repo, change the username in the links.
 
 ### What you will be asked
 
@@ -192,8 +192,8 @@ sudo bash install.sh
 Create a `_redirects` file in your Netlify site:
 
 ```
-/rd    https://raw.githubusercontent.com/<your-username>/rustdesk-setup/main/install.ps1    200
-/rdsh  https://raw.githubusercontent.com/<your-username>/rustdesk-setup/main/install.sh     200
+/rd    https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install.ps1    200
+/rdsh  https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install.sh     200
 ```
 
 Then use:
