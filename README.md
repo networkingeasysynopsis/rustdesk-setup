@@ -27,7 +27,7 @@ rustdesk-setup/
 Open **PowerShell as Administrator** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/networkingeasysynopsis/rustdesk-setup/main/install-rustdesk.ps1 | iex
 ```
 
 ### Linux / macOS
